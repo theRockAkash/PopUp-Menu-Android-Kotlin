@@ -77,9 +77,7 @@
                     android:id="@+id/spinLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:background="@drawable/white_radius_bg_8"
-                    android:backgroundTint="@color/background"
+                    android:layout_marginTop="8dp" 
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/tvState">
 
@@ -132,7 +130,6 @@
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btLow"
                     style="@style/Widget.Material3.Button.OutlinedButton"
-                    setButtonEnabled="@{true}"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
@@ -148,7 +145,6 @@
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btHigh"
                     style="@style/Widget.Material3.Button.OutlinedButton"
-                    setButtonEnabled="@{false}"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
